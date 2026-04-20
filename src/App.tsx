@@ -52,7 +52,7 @@ const Navbar = ({ activeScreen, setActiveScreen }: { activeScreen: string, setAc
       scrolled ? 'bg-white/70 backdrop-blur-xl shadow-2xl shadow-slate-200/50' : 'bg-slate-100/30 backdrop-blur-sm'
     }`}>
       <div 
-        className="font-display text-2xl font-black tracking-tighter text-slate-900 cursor-pointer"
+        className="font-display text-[18px] font-black tracking-tighter text-slate-900 cursor-pointer"
         onClick={() => setActiveScreen('home')}
       >
         PharmaVision Hub
